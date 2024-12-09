@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+}
+
+
+.container {
+    display: inline-block;
+    width: 150px;
+}
+
+.center {
+  text-align: center;
+  background-color: rgb(5, 5, 88);
+}
+
+.home-header {
+    font-size:30px;
+    font-weight:bolder;
+    color:white;
+}
+
+.home-points {
+    background-color: black;
+    color:red;
+    padding:20px;
+    font-size:40px;
+    border-radius: 5px;
+}
+
+.guest-header {
+    font-size:30px;
+    font-weight:bolder;
+    color:white;
+}
+
+.guest-points {
+    background-color: black;
+    color:red;
+    padding:20px;
+    font-size:40px;
+    border-radius: 5px;
+}
