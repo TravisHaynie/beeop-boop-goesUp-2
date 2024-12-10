@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: rgba(4, 7, 41, 0.784);
 }
 
 
@@ -10,13 +10,13 @@ body {
 
 .center {
   text-align: center;
-  background-color: rgb(5, 5, 88);
 }
 
 .home-header {
     font-size:30px;
     font-weight:bolder;
     color:white;
+    margin: 20px;
 }
 
 .home-points {
@@ -25,12 +25,15 @@ body {
     padding:20px;
     font-size:40px;
     border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin:10px
 }
 
 .guest-header {
     font-size:30px;
     font-weight:bolder;
     color:white;
+    margin: 20px;
 }
 
 .guest-points {
@@ -39,4 +42,40 @@ body {
     padding:20px;
     font-size:40px;
     border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin:10px
+}
+
+button {
+    background-color: rgba(4, 7, 41, 0.784);
+    border:2px solid white;
+    border-radius: 5px;
+    padding:5px;
+    color:white;
+    margin:5px;
+    font-size: 16px;
+}
+
+.timer {
+    color:white;
+    font-size: 30px;
+}
+
+.period-f {
+ display: inline-block;
+ padding:7px;
+ background-color: black;
+ color:red;
+ border-radius: 5px;
+ font-size: 16px;
+
+}
+
+.period {
+    display: inline-block;
+    padding:7px;
+    background-color: black;
+    color:red;
+    border-radius: 5px;
+    font-size: 16px;
 }

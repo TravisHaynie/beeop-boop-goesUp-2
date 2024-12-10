@@ -4,32 +4,41 @@
 <meta charset="UTF-8">
 <title>Scoreboard</title>
 <link rel="stylesheet" href="./css/style.css">
+<link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
 </head>
 <body>
 <div class="center">
-  <p id="">Timer:</p>
-  <p id="leader"></p>
+  <p class="timer" id="timer"></p>
+  <p class= "leader" id="leader"></p>
   <div class="container">
     <p class="home-header">HOME</p>
     <p class="home-points" id="home">0</p>
-    <button onclick="">+1</button>
-    <button onclick="">+2</button>
-    <button onclick="">+3</button>
+    <button class="btn" onclick="homeOneCounter()">+1</button>
+    <button class="btn" onclick="homeTwoCounter()">+2</button>
+    <button class="btn" onclick="homeThreeCounter()">+3</button>
   </div>
   <div class="container"> 
     <p class="guest-header">GUEST</p>
     <p class="guest-points" id="guest">0</p>
-    <button onclick="">+1</button>
-    <button onclick="">+2</button>
-    <button onclick="">+3</button>
+    <button class="btn" onclick="guestOneCounter()">+1</button>
+    <button class="btn" onclick="guestTwoCounter()">+2</button>
+    <button class="btn" onclick="guestThreeCounter()">+3</button>
   </div>
-  <div class="pf-section">
-    <button onclick="">Period</button>
-    <button onclick="">H-1 Fouls</button>
-    <button onclick="">Guest-Fouls</button>
+  <div>
+    <button class="btn" onclick=" periodCounter()">Period</button>
+    <p class="period" id="period">0</p>
+    <button class="btn" onclick="homeFouls()">H-1 Fouls</button>
+    <p class="period-f" id="home-fouls">0</p>
+    <button class="btn" onclick="guestFouls()">Guest-Fouls</button>
+    <p class="period-f" id="guest-fouls">0</p>
+   </div>
+   <button class="newgame" onclick="newGame()">New Game</button>
   </div>
-  <button class="newgame">New Game</button>
 </div>
+<script src="./js/scripts.js"></script>
 </body>
 </html>
 
