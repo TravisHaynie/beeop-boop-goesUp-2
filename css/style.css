@@ -79,3 +79,8 @@ button {
     border-radius: 5px;
     font-size: 16px;
 }
+
+.leader {
+    font-size: 20px;
+    color:white;
+}
