@@ -9,78 +9,78 @@ body {
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .home-header {
-    font-size:30px;
-    font-weight:bolder;
-    color:white;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
     margin: 20px;
 }
 
 .home-points {
     background-color: black;
-    color:red;
-    padding:20px;
-    font-size:40px;
+    color: red;
+    padding: 20px;
+    font-size: 40px;
     border-radius: 5px;
     font-family: 'Cursed Timer ULiL', sans-serif;
-    margin:10px
+    margin: 10px
 }
 
 .guest-header {
-    font-size:30px;
-    font-weight:bolder;
-    color:white;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
     margin: 20px;
 }
 
 .guest-points {
     background-color: black;
-    color:red;
-    padding:20px;
-    font-size:40px;
+    color: red;
+    padding: 20px;
+    font-size: 40px;
     border-radius: 5px;
     font-family: 'Cursed Timer ULiL', sans-serif;
-    margin:10px
+    margin: 10px
 }
 
 button {
     background-color: rgba(4, 7, 41, 0.784);
-    border:2px solid white;
+    border: 2px solid white;
     border-radius: 5px;
-    padding:5px;
-    color:white;
-    margin:5px;
+    padding: 5px;
+    color: white;
+    margin: 5px;
     font-size: 16px;
 }
 
 .timer {
-    color:white;
+    color: white;
     font-size: 30px;
 }
 
 .period-f {
- display: inline-block;
- padding:7px;
- background-color: black;
- color:red;
- border-radius: 5px;
- font-size: 16px;
+    display: inline-block;
+    padding: 7px;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    font-size: 16px;
 
 }
 
 .period {
     display: inline-block;
-    padding:7px;
+    padding: 7px;
     background-color: black;
-    color:red;
+    color: red;
     border-radius: 5px;
     font-size: 16px;
 }
 
 .leader {
     font-size: 20px;
-    color:white;
+    color: white;
 }

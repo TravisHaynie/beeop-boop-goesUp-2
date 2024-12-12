@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Scoreboard</title>d
-<link rel="stylesheet" href="./css/style.css">
-<link
+  <head>
+    <meta charset="UTF-8" />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
       href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
       rel="stylesheet"
     />
-</head>
-<body>
-<div class="center">
-  <p class="timer" id="timer">TIME</p>
-  <p class= "leader" id="leader">LEADER</p>
-  <div class="container">
-    <p class="home-header">HOME</p>
-    <p class="home-points" id="home">0</p>
-    <button class="btn" onclick="homeOneCounter()">+1</button>
-    <button class="btn" onclick="homeTwoCounter()">+2</button>
-    <button class="btn" onclick="homeThreeCounter()">+3</button>
-  </div>
-  <div class="container"> 
-    <p class="guest-header">GUEST</p>
-    <p class="guest-points" id="guest">0</p>
-    <button class="btn" onclick="guestOneCounter()">+1</button>
-    <button class="btn" onclick="guestTwoCounter()">+2</button>
-    <button class="btn" onclick="guestThreeCounter()">+3</button>
-  </div>
-  <div>
-    <button class="btn" onclick=" periodCounter()">Period</button>
-    <p class="period" id="period">0</p>
-    <button class="btn" onclick="homeFouls()">H-1 Fouls</button>
-    <p class="period-f" id="home-fouls">0</p>
-    <button class="btn" onclick="guestFouls()">Guest-Fouls</button>
-    <p class="period-f" id="guest-fouls">0</p>
-   </div>
-   <button class="newgame" onclick="newGame()">New Game</button>
-   <button id="startgame" onclick="startGame()">Start Game</button>
-  </div>
-<script src="./js/scripts.js"></script>
-</body>
+  </head>
+  <body>
+    <div class="center">
+      <p class="timer" id="timer">TIME</p>
+      <p class="leader" id="leader">LEADER</p>
+      <div class="container">
+        <p class="home-header">HOME</p>
+        <p class="home-points" id="home">0</p>
+        <button class="btn" onclick="homeOneCounter()">+1</button>
+        <button class="btn" onclick="homeTwoCounter()">+2</button>
+        <button class="btn" onclick="homeThreeCounter()">+3</button>
+      </div>
+      <div class="container">
+        <p class="guest-header">GUEST</p>
+        <p class="guest-points" id="guest">0</p>
+        <button class="btn" onclick="guestOneCounter()">+1</button>
+        <button class="btn" onclick="guestTwoCounter()">+2</button>
+        <button class="btn" onclick="guestThreeCounter()">+3</button>
+      </div>
+      <div>
+        <button class="btn" onclick=" periodCounter()">Period</button>
+        <p class="period" id="period">0</p>
+        <button class="btn" onclick="homeFouls()">H-1 Fouls</button>
+        <p class="period-f" id="home-fouls">0</p>
+        <button class="btn" onclick="guestFouls()">Guest-Fouls</button>
+        <p class="period-f" id="guest-fouls">0</p>
+      </div>
+      <button class="newgame" onclick="newGame()">New Game</button>
+      <button id="startgame" onclick="startGame()">Start Game</button>
+    </div>
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
-
